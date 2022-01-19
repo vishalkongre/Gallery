@@ -1,0 +1,12 @@
+1. The project is created using expo bare workflow so that both the packages can be installed.
+2. In the project redux and redux-thunk is used.
+3. All the navigation part is done in App.js file.
+4. Custom fonts b612 and halvetica are used with the help of expo fonts.
+5. All the app content is in src folder.
+6. Inside the store there are actions and reducers.
+7. Inside action there are two type of actions taskAction and listAction.
+8.  list action helps to create category list ,getlist,delete list item 
+9. taskAction  helps to create Images list ,getlist,and delete specific item in list 
+10. as we navigate inside the category its filterout the images which belogs to perticular category.
+11. All the data is stored in async storage.
+12. if one of the item is marked as favorite and its category is deleted then the favorite will not be deleted until its marked as unfavorite.
